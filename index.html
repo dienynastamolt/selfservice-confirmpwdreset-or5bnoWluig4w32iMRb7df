@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <title>TAMO</title>
+
+    <style>
+    body {
+        background-color: rgb(241, 242, 235);
+        font-family: "Open Sans", sans-serif;
+      }
+
+      .square {
+        width: 400px;
+        height: 430px;
+        background-color: white;
+        position: absolute;
+        top: 100px;
+        left: 50%;
+        transform: translateX(-50%);
+      }
+      .logo {
+        position: absolute;
+        top: 30px;
+        left: 50%;
+        transform: translateX(-50%);
+      }
+      .headerText {
+        color: rgb(63, 104, 119);
+        font-weight: bold;
+        font-size: 22px;
+        text-align: center;
+        position: absolute;
+        top: 90px;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 100%;
+      }
+      .smallText {
+        color: rgb(104, 104, 104);
+        font-size: 13px;
+        text-align: center;
+        position: absolute;
+        top: 150px;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 100%;
+      }
+      .smallText2 {
+        color: rgb(104, 104, 104);
+        font-weight: bold;
+        font-size: 13px;
+        text-align: center;
+        position: absolute;
+        top: 200px;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 100%;
+      }
+      .smallText3 {
+        color: rgb(104, 104, 104);
+        font-weight: bold;
+        font-size: 13px;
+        text-align: center;
+        position: absolute;
+        top: 260px;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 100%;
+      }
+      .smallText4 {
+        color: rgb(104, 104, 104);
+        font-weight: bold;
+        font-size: 13px;
+        text-align: center;
+        position: absolute;
+        top: 320px;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 100%;
+      }
+      .inputUser {
+        position: absolute;
+        color: rgb(104, 104, 104);
+        top: 230px;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 370px;
+        height: 25px;
+        border: 1px solid rgb(135, 180, 204);
+      }
+      .inputUser:focus {
+        outline: none;
+      }
+      .inputOldPass {
+        position: absolute;
+        color: rgb(104, 104, 104);
+        top: 290px;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 370px;
+        height: 25px;
+        border: 1px solid rgb(135, 180, 204);
+      }
+      .inputOldPass:focus {
+        outline: none;
+      }
+      .inputNewPass {
+        position: absolute;
+        color: rgb(104, 104, 104);
+        top: 350px;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 370px;
+        height: 25px;
+        border: 1px solid rgb(135, 180, 204);
+      }
+      .inputNewPass:focus {
+        outline: none;
+      }
+      .submit {
+        position: absolute;
+        bottom: 10px;
+        right: 10px;
+        background-color: rgb(149, 215, 208);
+        width: 135px;
+        height: 29px;
+        border: none;
+        color: white;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-family: "Open Sans",sans-serif;
+        font-size: 12px;
+        font-weight: 600;
+        cursor: pointer;
+      }
+
+      .submit:hover {
+        background-color: rgb(132, 206, 197);
+      }
+
+    </style>
+
+    <script src="app.js"></script>
+  </head>
+  <body>
+    <div class="square">
+      <img class="logo" src="tamologo.png" alt="An Image">
+      <p class="headerText">SLAPTAŽODŽIO KEITIMAS</p>
+      <p class="smallText">Įveskite naują slaptažodį, jį pakartokite ir spauskite "Keisti<br>slaptažodį".</p>
+      <p class="smallText2">Naudotojo vardas</p>
+      <p class="smallText3">Senas slaptažodis</p>
+      <p class="smallText4">Naujas slaptažodis</p>
+      <input class="inputUser" type="text">
+      <input class="inputOldPass" type="text">
+      <input class="inputNewPass" type="text">
+      <button class="submit">Keisti slaptažodį</button>
+    </div>
+  </body>
+</html>
